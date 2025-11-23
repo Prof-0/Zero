@@ -15,6 +15,7 @@ links = {
     "twitter": "https://twitter.com/m7moud9i",
     "instagram": "https://instagram.com/m7oud9i",
     "facebook": "https://facebook.com/m7oud9i",
+    "telegram": "https://t.me/m7moud9i",
     "email": "mailto:elgazar.m7moud@gmail.com"
 }
 
