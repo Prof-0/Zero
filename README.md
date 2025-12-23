@@ -42,23 +42,23 @@ All QR codes are **generated locally using Python**, ensuring privacy, security,
 └── README.md
 ```
 ## ⚙️ Installation & Setup
-1. Clone the Repository
+### 1. Clone the Repository
 ```text
 
 git clone [https://github.com/](https://github.com/)<username>/<repository>.git
 cd <repository>
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 
 ```text
 pip install qrcode[pil]
 ```
-3. Generate QR Codes
+### 3. Generate QR Codes
 
 ```text
 python generate_qr.py
 ```
-All QR codes will be generated and saved inside the qrcodes/ directory.
+> All QR codes will be generated and saved inside the qrcodes/ directory.
 
 ### 🚀 Running the Project
 > This is a fully static project. Simply open the main file:
@@ -66,7 +66,7 @@ All QR codes will be generated and saved inside the qrcodes/ directory.
 
 
 # On Windows
-start index.html
+> start index.html
 ### 🎨 Customization
 > Editing Social Links
 > Modify the links dictionary inside generate_qr.py:
@@ -79,7 +79,8 @@ links = {
     "telegram": "[https://t.me/your-handle](https://t.me/your-handle)"
 }
 ```
-Note: Re-run the script after editing to regenerate QR codes.
+### Note:
+> Re-run the script after editing to regenerate QR codes.
 
 ## 📄 License
 > This project is licensed under the MIT License.
