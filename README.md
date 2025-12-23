@@ -64,7 +64,7 @@ All QR codes are \*\*generated locally using Python\*\*, ensuring privacy, secur
 
 ```text
 
-.
+
 
 ├── index.html          # Main landing page
 
@@ -84,7 +84,7 @@ All QR codes are \*\*generated locally using Python\*\*, ensuring privacy, secur
 
 1\. Clone the Repository
 
-Bash
+```text
 
 
 
@@ -92,21 +92,27 @@ git clone \[https://github.com/](https://github.com/)<username>/<repository>.git
 
 cd <repository>
 
+```
+
 2\. Install Dependencies
 
-Bash
 
 
+```text
 
 pip install qrcode\[pil]
 
+```
+
 3\. Generate QR Codes
 
-Bash
 
 
+```text
 
 python generate\_qr.py
+
+```
 
 All QR codes will be generated and saved inside the qrcodes/ directory.
 
@@ -118,7 +124,7 @@ This is a fully static project. Simply open the main file:
 
 
 
-Bash
+
 
 
 
@@ -126,7 +132,7 @@ Bash
 
 start index.html
 
-🎨 Customization
+\### 🎨 Customization
 
 Editing Social Links
 
@@ -134,9 +140,9 @@ Modify the links dictionary inside generate\_qr.py:
 
 
 
-Python
+\## Python
 
-
+```text
 
 links = {
 
@@ -147,6 +153,8 @@ links = {
 &nbsp;   "telegram": "\[https://t.me/your-handle](https://t.me/your-handle)"
 
 }
+
+```
 
 Note: Re-run the script after editing to regenerate QR codes.
 
