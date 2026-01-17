@@ -1,99 +1,107 @@
+# ZERO // CYBERSECURITY PORTFOLIO
 
-# Personal QR & Social Links Hub
+> No System is secure.
 
-> A professional, lightweight static web project that centralizes personal and professional social links with scannable QR codes for fast, reliable sharing.
+A **security-first, hacker-oriented portfolio website** built to represent technical depth, mindset, and discipline — not marketing noise.
 
-> This project is designed with simplicity, performance, and clean presentation in mind, making it suitable for personal branding, developer portfolios, and offline sharing.
-
----
-
-## 📖 Overview
-> The **Personal QR & Social Links Hub** is a static landing page that displays a curated list of social or professional links, each paired with a high-quality QR code.
-All QR codes are **generated locally using Python**, ensuring privacy, security, and full control over the content. The project does not rely on any backend services or external APIs.
+This project is intentionally minimal, static, and dependency-light.
 
 ---
 
-## ✨ Features
-* ✅ **Centralized Hub:** For social and professional links.
-* 📱 **Local Generation:** High-resolution QR codes created locally.
-* 🎨 **Modern UI:** Clean, dark-themed interface.
-* ⚡ **Fully Static:** No frameworks, no backend, no trackers.
-* 🖱️ **Interactive:** Click-to-preview QR modal view.
+## ⚠️ Philosophy
+
+Security is not a feature.  
+Privacy is not optional.  
+Complexity is a liability.
+
+This website exists to present **signal, not decoration**.
 
 ---
 
-## 🛠 Technology Stack
-```text
-* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-* ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-* ![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=flat-square&logo=python&logoColor=white)
-* **Libraries:** `qrcode`, `Pillow`
-```
+## 🧠 What This Is
+
+- A professional digital identity for a cybersecurity engineer
+- A static portfolio with **zero dynamic attack surface**
+- A controlled environment — no backend, no trackers, no analytics
+- A place to showcase skills, tools, and real projects without dilution
+
 ---
 
-## 📂 Project Structure
-```text
+## 🧩 Core Characteristics
 
-├── index.html          # Main landing page
-├── core/
-│   └── style.css       # UI styling and theme
-├── generate_qr.py      # QR code generation script
-├── qrcodes/            # Generated QR code images
-└── README.md
-```
-## ⚙️ Installation & Setup
-### 1. Clone the Repository
-```text
+- Fully static architecture
+- Vanilla HTML / CSS / JavaScript only
+- Dark cyber-themed UI with restrained visual effects
+- Responsive by design
+- Clean semantic structure
+- Easy to audit, fork, and extend
 
-git clone [https://github.com/](https://github.com/)<username>/<repository>.git
-cd <repository>
-```
-### 2. Install Dependencies
+---
 
-```text
-pip install qrcode[pil]
-```
-### 3. Generate QR Codes
+## 🛠 Stack
 
-```text
-python generate_qr.py
-```
-> All QR codes will be generated and saved inside the qrcodes/ directory.
+HTML5  
+CSS3  
+Vanilla JavaScript  
+Font Awesome  
+Google Fonts (Inter, JetBrains Mono)
 
-### 🚀 Running the Project
-> This is a fully static project. Simply open the main file:
+No frameworks. No build systems. No abstractions.
 
+---
 
+## 📂 Layout
 
-# On Windows
-> start index.html
-### 🎨 Customization
-> Editing Social Links
-> Modify the links dictionary inside generate_qr.py:
+├── index.html  
+├── core/  
+│   └── style.css  
+├── assests/  
+│   └── thumbnail.png  
+└── README.md  
 
-## Python
-```text
-links = {
-    "github": "[https://github.com/your-username](https://github.com/your-username)",
-    "linkedin": "[https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)",
-    "telegram": "[https://t.me/your-handle](https://t.me/your-handle)"
-}
-```
-### Note:
-> Re-run the script after editing to regenerate QR codes.
+---
 
-## 📄 License
-> This project is licensed under the MIT License.
+## 🚀 Usage
 
-# 👤 Author
-<<<<<<< HEAD
-###      Eng Mahmoud Elgazar **"zero"**
-=======
-## ***Zero***
->>>>>>> 7ce58aea8335bd67f6fc6d0536cf02d9d05c408c
+Clone the repository and open `index.html`.
 
-## 🛡️ Cybersecurity
+That’s it.
 
-## 🎩 Ethical Hacking
+No server.  
+No install steps.  
+No hidden behavior.
 
-## 💻 Software Engineering
+---
+
+## 🔐 Security Notes
+
+- No backend endpoints
+- No form handling
+- No third-party scripts beyond fonts/icons
+- Minimal JavaScript footprint
+- Reduced fingerprinting surface
+
+Designed to be **inspectable**, not impressive.
+
+---
+
+## 👤 [Identity](https://iprof-0.github.io/Zero)
+
+Mahmoud Elgazar — **Zero**  
+Cybersecurity Engineer • Ethical Hacker • Software Engineer  
+
+Primary presence and contact methods are intentionally exposed **inside the website itself**.
+
+This repository focuses on code and structure — not social promotion.
+
+---
+
+## 📄 [License](LICENSE)
+
+MIT License.
+
+Fork it. Audit it. Modify it.
+
+---
+
+Built with intent, not noise.
